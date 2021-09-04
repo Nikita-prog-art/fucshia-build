@@ -1,4 +1,4 @@
 export PATH=/content/fuchsia/.jiri_root/bin:$PATH
-cd /content/fuchsia/
+cd /content/fuchsia/.jiri_root
 fx set workstation.qemu-x64 --ccache
 fx build
